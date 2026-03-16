@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <header class="container py-3">
+    <header class="container ">
         <nav class="navbar navbar-expand-lg align-items-center">
             <a class="navbar-brand" href="#">
                 <img src="./images/logo-dark.svg">
@@ -59,32 +59,35 @@
             <button class="invite-btn barlow-semi-condensed-bold d-none d-lg-block">Request Invite</button>
         </nav>
     </header>
-    <section class="container mt-5 pt-5">
+    <section class="container  overflow-hidden">
         <div class="row justify-content-between">
-            <div class="col-sm-3">
+            <div class="col-sm-3 mb-5 d-flex flex-column align-items-center justify-content-center order-2 order-md-1">
 
-                <h1>Next generation digital banking</h1>
+                <h1 class="text-3xl pb-2">Next generation digital banking</h1>
 
-                <p class="text-mute">Take your financial life online. Your Digitalbank account will be a one-stop-shop
+                <p class="text-muted">Take your financial life online. Your Digitalbank account will be a one-stop-shop
                     for spending, saving, budgeting, investing, and much more.</p>
 
                 <button class="invite-btn barlow-semi-condensed-bold">Request Invite</button>
 
             </div>
-            <div class="col-sm-7 position-relative py-5">
-                <img class="img-fluid d-none d-md-block position-relative w-100" src="./images/bg-intro-desktop.svg">
-                <img class="img-fluid d-md-none w-75" src="./images/bg-intro-mobile.svg">
-                <!-- <div class="card-img-overlay"> -->
-                <img class="position-absolute top-50 start-50 translate-middle w-75" style="z-index: 10;"
-                    src="./images//image-mockups.png">
-                <!-- </div> -->
+            <div class="col-sm-7 position-relative hero-images order-1 order-md-2 ">
+                <img class="d-none d-md-block " src="./images/bg-intro-desktop.svg">
+                <img class="d-md-none" src="./images/bg-intro-mobile.svg">
+                <!-- phone image  for mobile -->
+                <img class="d-md-none position-absolute top-50 start-50 translate-middle h-75"
+                    src="./images/image-mockups.png">
+
+                <!-- phone image for desktop -->
+                <img class="d-none d-md-block position-absolute top-50 start-50 translate-middle h-100"
+                    src="./images/image-mockups.png">
             </div>
         </div>
     </section>
 
     <main class="container">
-        <section class="container text-center text-md-start bg-light my-5">
-            <h1 class="my-3"> Why choose Digitalbank?</h1>
+        <section class="container text-center text-md-start bg-light py-3">
+            <h1 class="pb-3"> Why choose Digitalbank?</h1>
 
             <p class="text-muted mb-5"> We leverage Open Banking to turn your bank account into your financial hub.
                 Control
@@ -120,8 +123,8 @@
                 </div>
             </div>
         </section>
-        <article class="container">
-            <h1>
+        <article class="container my-5">
+            <h1 class="pb-5">
                 Latest Articles
             </h1>
             <div class="row g-5">
@@ -129,10 +132,10 @@
                     <div class="card">
                         <figure>
                             <img class="card-img" src="./images/image-currency.jpg">
-                            <figcaption> By Claire Robinson</figcaption>
+                            <figcaption class="ms-3 mt-3"> By Claire Robinson</figcaption>
                         </figure>
-                        <div class="card-content m-x-3">
-                            <h3>Receive money in any currency with no fees</h3>
+                        <div class="card-content ms-3">
+                            <h5 class="card-title ">Receive money in any currency with no fees</h5>
                             <p>The world is getting smaller and we’re becoming more mobile. So why should you be
                                 forced to only receive money in a single …</p>
                         </div>
@@ -142,9 +145,9 @@
                     <div class="card">
                         <figure>
                             <img class="card-img" src="./images/image-restaurant.jpg">
-                            <figcaption>By Wilson Hutton</figcaption>
+                            <figcaption class="ms-3 mt-3">By Wilson Hutton</figcaption>
                         </figure>
-                        <div class="card-content">
+                        <div class="card-content ms-3">
                             <h3>Treat yourself without worrying about money</h3>
                             <p>
                                 Our simple budgeting feature allows you to separate out your spending and set
@@ -157,9 +160,9 @@
                     <div class="card">
                         <figure>
                             <img class="card-img" src="./images/image-plane.jpg">
-                            <figcaption> By Wilson Hutton</figcaption>
+                            <figcaption class="ms-3 mt-3"> By Wilson Hutton</figcaption>
                         </figure>
-                        <div>
+                        <div class="card-content ms-3">
                             <h3>Take your Digitalbank card wherever you go</h3>
                             <p>
                                 We want you to enjoy your travels. This is why we don’t charge any fees on purchases
@@ -171,15 +174,17 @@
                     <div class="card">
                         <figure>
                             <img class="card-img" src="./images/image-confetti.jpg">
-                            <figcaption>
+                            <figcaption class="ms-3 mt-3">
                                 By Claire Robinson
                             </figcaption>
                         </figure>
-                        <h3>
-                            Our invite-only Beta accounts are now live!
-                        </h3>
-                        <p> After a lot of hard work by the whole team, we’re excited to launch our closed beta.
-                            It’s easy to request an invite through the site ...</p>
+                        <div class="card-content ms-3">
+                            <h3>
+                                Our invite-only Beta accounts are now live!
+                            </h3>
+                            <p> After a lot of hard work by the whole team, we’re excited to launch our closed beta.
+                                It’s easy to request an invite through the site ...</p>
+                        </div>
                     </div>
                 </div>
         </article>

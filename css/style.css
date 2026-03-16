@@ -33,3 +33,13 @@ body{
   border-radius: 50px;
   font-weight: 700;
 }
+
+
+
+.hero-images {
+  transform: translateY(-20%); /* move the image upwards behind the navbar.*/
+  margin-bottom: -20%; /* added this to remove the extra height created under the hero section*/
+}
+
+
+
