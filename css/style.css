@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-size: 18px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.barlow-semi-condensed-light {
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.invite-btn {
+  background: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  color: white;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 50px;
+  font-weight: 700;
+}
